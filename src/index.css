@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.simple {
+  font-size: 7vh;
+  text-align: center;
+  color: brown;
+  cursor: pointer;
+  border-radius: 40%;
+  border: solid;
+  padding: 0vw;
+  margin: 0.5vw;
+
+}
+
+.simple:hover {
+  font-size: 7vh;
+  text-align: center;
+  color: brown;
+  cursor: pointer;
+  border-radius: 40%;
+  border: solid;
+  padding: 0vw;
+  margin: 0.5vw;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+
+}
+
+.unsimple {
+  font-size: 7vh;
+  text-align: center;
+  color: gray;
+  border-radius: 40%;
+  border: solid;
+  padding: 0vw;
+  margin: 0.5vw;
+  
+}
+
+.middle {
+  height: 3vh;
+  width: 100%;
+}
+
+
+.score {
+  height: 15vh;
+  text-align:center;
+  font-size: 20vh;
+  cursor: pointer;
+}
+
+
+.scoreGreen {
+  color: green;
+}
+
+.scoreYellow {
+  color: yellow;
+}
+
+.scoreRed {
+  color: red;
+}
+
+.solution {
+  height: 18vh;
+  text-align:center;
+  font-size: 18vh;
+  color: brown;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(7, 10%);
+}
+
+.hint {
+  height: auto;
+  font-style: italic;
+  font-size: 4vh;
+  color: green
+}
+
